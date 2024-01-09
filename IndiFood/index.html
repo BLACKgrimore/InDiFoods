@@ -11,24 +11,29 @@
     <div class="nab">
         <div class="navbar">
             <a href="index.html" class="navbar-brand">InDiFoods</a>
-            <ul class="navbar-menu">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Reserve Table</a></li>
-                <div class="dropdown">
-                    <a class="dropbtn" href="">Food Items</a>
-                    <div class="dropdown-content">
-                        <a href="#service1">Takeaway</a>
-                        <a href="#service2">Dining</a>
-                        <a href="#service3">Home Delivery</a>
+            <div class="navbar-toggle">
+                <div class="hamburger" onclick="toggleNavbar()"></div>
+            </div>
+            <ul class="navbar-menu" id="navbarMenu">
+                <ul class="navbar-menu">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Reserve Table</a></li>
+                    <div class="dropdown">
+                        <a class="dropbtn" href="">Food Items</a>
+                        <div class="dropdown-content">
+                            <a href="#service1">Takeaway</a>
+                            <a href="#service2">Dining</a>
+                            <a href="#service3">Home Delivery</a>
+                        </div>
                     </div>
-                </div>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Account</a></li>
-                
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                    
+                </ul>
             </ul>
         </div>
         <div class="NavBtn">
-            <button class="SignBtn">Sign up &#8594;</button>
+            <a href="signup.html"><button class="SignBtn">Sign up &#8594;</button></a>
         </div>
     </div>
     

@@ -35,3 +35,10 @@
     }
 
     setInterval(nextSlide, 3000); // Auto slide every 3 seconds
+
+    /* Hamburger Icon */
+    function toggleNavbar() {
+        var menu = document.getElementById("navbarMenu");
+        menu.classList.toggle("change");
+    }
+    
