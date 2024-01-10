@@ -15,17 +15,15 @@
     background-size:cover;
     background-position: left
 }
-   .container {
+
+  .container {
     display: flex;
   }
   
   .design-element {
     flex: 3;
     height: 80vh;
-    /* background-color: #110202; Left side design element color */
-    background-image: url('./sam-moghadam-khamseh-yxZSAjyToP4-unsplash.jpg');
-
-  }
+}
   
   .card {
     background-color: #05082f;
@@ -103,4 +101,3 @@ button {
   
   /* .secondary-btn:hover {
     background-color: #d32f2f; } /* Example hover color */
-   

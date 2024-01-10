@@ -40,3 +40,4 @@
         var menu = document.getElementById("navbarMenu");
         menu.classList.toggle("change");
     }
+
